@@ -1,6 +1,6 @@
 ---
-name: fsg-a11y-auditor
-description: Audita a acessibilidade (WCAG 2.1 AA) de um frame do Figma da FSG. Calcula os contrastes reais, confere alvos de toque, foco, alt e ordem de leitura, e propõe correções com a razão de contraste. Use depois de montar ou revisar uma tela no Figma. Somente leitura, devolve texto.
+name: a11y-auditor
+description: Audita a acessibilidade (WCAG 2.1 AA) de um frame do Figma. Calcula os contrastes reais, confere alvos de toque, foco, alt e ordem de leitura, e propõe correções com a razão de contraste. Use depois de montar ou revisar uma tela no Figma. Somente leitura, devolve texto.
 tools: Read, Bash, PowerShell, mcp__claude_ai_Figma__get_design_context, mcp__claude_ai_Figma__get_figma_skill, mcp__claude_ai_Figma__get_screenshot
 model: sonnet
 ---
@@ -27,7 +27,7 @@ function cr($a,$b){ $x=L $a;$y=L $b; [Math]::Round(([Math]::Max($x,$y)+0.05)/([M
 5. Aplique os critérios:
    - Texto normal ≥ 4,5:1. Texto grande (≥ 24px, ou ≥ 18,66px em negrito) ≥ 3:1.
    - Bordas e ícones que definem um controle ≥ 3:1 contra o fundo.
-   - Alvos de toque: mínimo 24px (WCAG 2.2 AA); recomendado 44px (padrão FSG, obrigatório no mobile).
+   - Alvos de toque: mínimo 24px (WCAG 2.2 AA); recomendado 44px (obrigatório no mobile).
    - Existem estados de foco desenhados? Anel esperado: 2px, offset 2px.
    - Estado só por cor? Deve ter também texto, ícone ou forma.
    - Inputs com label visível; erro com ícone + texto; asterisco com legenda.

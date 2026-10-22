@@ -13,6 +13,7 @@
 | <nome> | `<id>` | <lida / parcial / legado> |
 
 ## Arquivos do projeto
+- [instructions.md](instructions.md): regras de construção que a skill aplica neste projeto.
 - [design-patterns.md](design-patterns.md): tokens, componentes, comportamento, acessibilidade e pendências.
 - [screens.md](screens.md): telas criadas e analisadas.
 

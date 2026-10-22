@@ -1,6 +1,6 @@
 ---
 name: figma-extractor
-description: Extrai de UMA página ou frame de um arquivo Figma os tokens (cores, tipografia, espaçamento, raios), as anotações de handoff (Notes), os componentes e as lacunas, e devolve tudo como texto estruturado. Use para completar o documento de padrões da FSG. Rode um por vez, por causa do limite de chamadas do Figma. Somente leitura.
+description: Extrai de UMA página ou frame de um arquivo Figma os tokens (cores, tipografia, espaçamento, raios), as anotações de handoff (Notes), os componentes e as lacunas, e devolve tudo como texto estruturado. Use para completar o `design-patterns.md` de um projeto. Rode um por vez, por causa do limite de chamadas do Figma. Somente leitura.
 tools: Read, Bash, PowerShell, Glob, Grep, mcp__claude_ai_Figma__get_metadata, mcp__claude_ai_Figma__get_design_context, mcp__claude_ai_Figma__get_screenshot, mcp__claude_ai_Figma__get_variable_defs, mcp__claude_ai_Figma__get_figma_skill, mcp__claude_ai_Figma__search_design_system
 model: sonnet
 ---

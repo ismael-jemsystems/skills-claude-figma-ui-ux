@@ -16,7 +16,7 @@
 <2–4 linhas: o que foi prototipado, estados cobertos (logado/deslogado, estoque, hover/focus/erro/vazio).>
 
 ## Componentes e tokens
-- Reutilizados da biblioteca (SITE JEM REBRANDING / FSG): <lista>
+- Reutilizados da biblioteca do projeto (<nome da biblioteca>): <lista>
 - Criados localmente: <lista e motivo>
 - Valores literais sem token: <lista>
 
@@ -25,7 +25,7 @@
 
 ## Acessibilidade
 - Contrastes verificados: <pares e razões>
-- **Desvios propostos** em relação ao Figma original da FSG: <cor original → cor usada, razão antes → depois>
+- **Desvios propostos** em relação ao Figma original: <cor original → cor usada, razão antes → depois>
 - Foco, alvos 44px, alt/nomes acessíveis, ordem de leitura: <ok / observações>
 
 ## Suposições
